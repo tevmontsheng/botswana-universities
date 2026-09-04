@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universities in Botswana</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <div class="flag-bar"></div>
+        <h1>Universities in Botswana</h1>
+        <p>Explore higher education institutions across Botswana</p>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Public">Public</button>
+          <button class="filter-btn" data-filter="Private">Private</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="stats-bar">
+        <span id="count-text">Showing 12 universities</span>
+      </div>
+      <div class="grid" id="university-grid"></div>
+    </main>
+
+    <footer>
+      <p>Universities in Botswana &copy; 2026</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
