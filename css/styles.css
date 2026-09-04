@@ -458,6 +458,43 @@ a {
   transform: translateY(-1px);
 }
 
+/* Fun Facts */
+.fun-facts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fun-facts-list li {
+  display: flex;
+  gap: 12px;
+  padding: 16px 18px;
+  background: color-mix(in srgb, var(--uni-color, var(--primary)) 5%, white);
+  border: 1px solid color-mix(in srgb, var(--uni-color, var(--primary)) 12%, var(--border));
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fun-facts-list li:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow);
+}
+
+.fun-facts-list svg {
+  flex-shrink: 0;
+  color: var(--uni-color, var(--primary));
+  margin-top: 2px;
+}
+
+.fun-facts-list span {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
 /* Not Found */
 .not-found {
   text-align: center;

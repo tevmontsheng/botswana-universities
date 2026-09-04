@@ -21,6 +21,11 @@ const universities = [
       "Science",
       "Social Sciences",
     ],
+    funFacts: [
+      "Alumni include current President Duma Boko (LLB, 1993) and former President Mokgweetsi Masisi, making it the alma mater of multiple Botswana heads of state.",
+      "Home to the Okavango Research Institute, which produces globally cited publications on wetland ecosystems and climate resilience in the Okavango Delta.",
+      "Ranked 2nd in Southern, Central, and East Africa (excluding South Africa) in the 2026 Times Higher Education World University Rankings.",
+    ],
   },
   {
     id: 2,
@@ -42,6 +47,11 @@ const universities = [
       "Physics",
       "Chemistry",
     ],
+    funFacts: [
+      "Built on a massive 2,500-hectare campus in Palapye — roughly the size of 3,500 football fields — making it one of the largest university campuses in Africa.",
+      "Leading Botswana's first-ever national satellite project (BOTSAT-1), developed entirely by BIUST engineers with partners including SpaceX and EnduroSat.",
+      "Attracts roughly 30% international students and is ranked #1 in Botswana for Engineering in the 2025 Times Higher Education Subject Rankings.",
+    ],
   },
   {
     id: 3,
@@ -61,6 +71,11 @@ const universities = [
       "Agriculture",
       "Social Sciences",
       "Distance Learning",
+    ],
+    funFacts: [
+      "Originally Botswana College of Distance and Open Learning (BOCODOL) since 1998, transformed into a full university by an Act of Parliament in 2017.",
+      "Its Moodle-based e-learning resources are freely accessible not just to BOU students but to all Junior and Senior Secondary students nationwide.",
+      "Operates five regional campuses including Kang — located in the middle of the Kalahari Desert, making education accessible even in remote areas.",
     ],
   },
   {
@@ -83,6 +98,11 @@ const universities = [
       "Environmental Management",
       "Veterinary Science",
     ],
+    funFacts: [
+      "Home to the Meat Industry Training Institute (MITI), Botswana's only dedicated facility for training professionals in the beef industry — crucial in a country where cattle outnumber people.",
+      "Maintains a collection of 5,479 flora specimens including trees and economic plants, serving as a key botanical reference for the entire country.",
+      "Pioneered climate-smart rice intercropping research in semi-arid Botswana, aiming to reduce the nation's heavy dependence on imported rice.",
+    ],
   },
   {
     id: 5,
@@ -103,6 +123,11 @@ const universities = [
       "Education",
       "Health Sciences",
       "Hospitality & Tourism",
+    ],
+    funFacts: [
+      "Botswana's largest private tertiary institution, with campuses in four countries: Botswana, Lesotho, Eswatini, and Namibia.",
+      "Pioneered the annual 'Linkz ICT Challenge' in 2009, a nationwide competition pitting the best ICT students from UB, BA ISAGO, ABM, and Limkokwing against each other.",
+      "Reports a 97% alumni employment rate, attributed to industry-focused training and partnerships with NIIT, Teesside University, and the Open University (UK).",
     ],
   },
   {
@@ -125,6 +150,11 @@ const universities = [
       "Social Sciences",
       "Information Technology",
     ],
+    funFacts: [
+      "Founded in Francistown — Botswana's second city — rather than the capital, an unconventional choice when tertiary education outside government institutions was not yet mainstream.",
+      "Started with just 50 students and now boasts over 18,500 alumni across three campuses after 25 years of operation.",
+      "Founder Odirile Gabasiane spent 7 years as Education Attaché at the Botswana High Commission in London, growing student placements from 300 to over 3,000 before returning home to start the university.",
+    ],
   },
   {
     id: 7,
@@ -146,6 +176,11 @@ const universities = [
       "Health Sciences",
       "Hospitality",
     ],
+    funFacts: [
+      "Botswana's very first private tertiary institution, established in 1989 — predating most other private colleges by over a decade.",
+      "First higher education institution in Botswana to establish an Entrepreneurship Development Centre (2017), with a 24-hour incubation facility.",
+      "Offers a BSc in Cybersecurity — one of the newest programs alongside its established business and tourism degrees.",
+    ],
   },
   {
     id: 8,
@@ -165,6 +200,11 @@ const universities = [
       "Public Administration",
       "Education",
       "Information Technology",
+    ],
+    funFacts: [
+      "Motto is 'Pro Deo et Patria' (For God and Country), with a mission explicitly focused on shaping morally and spiritually responsible graduates.",
+      "ISO 9001:2015 certified — a rare quality management credential among Botswana's smaller private institutions.",
+      "Offers niche programs not commonly found elsewhere in Botswana, including a Master of Science in Early Childhood Development.",
     ],
   },
   {
@@ -187,6 +227,11 @@ const universities = [
       "Business",
       "Information Technology",
     ],
+    funFacts: [
+      "Botswana campus was the biggest Limkokwing campus globally when it opened in 2008 — surpassing even the Malaysian main campus in Cyberjaya.",
+      "Part of a global network spanning 10+ countries across three continents, with students from 160+ countries at the Malaysian campus.",
+      "Recognized as the Best Private University in Botswana at the 2015 Botswana Tertiary Education Fair.",
+    ],
   },
   {
     id: 10,
@@ -206,6 +251,11 @@ const universities = [
       "Hospitality",
       "Taxation",
       "ICT",
+    ],
+    funFacts: [
+      "Established as a joint venture between the Ministry of Finance, Debswana Diamond Company, and the Botswana Institute of Accountants — specifically to reduce reliance on expatriate accountants.",
+      "In 2000, became one of only two colleges outside Europe to be awarded 'CIMA Learning through Partnership' status from the Chartered Institute of Management Accountants.",
+      "Now has over 20,000 alumni, with degree programs accredited by three UK universities including Sheffield Hallam and the University of Derby.",
     ],
   },
   {
@@ -228,6 +278,11 @@ const universities = [
       "Community Development",
       "Occupational Health & Safety",
     ],
+    funFacts: [
+      "Founded specifically to train Healthcare Assistants during the height of the HIV/AIDS pandemic — a direct response to Botswana's most urgent health crisis.",
+      "Claims a remarkable 98% pass rate and 70% job placement within six months of graduation, making it one of the most employment-effective colleges in the country.",
+      "Offers unique programs rarely found in Botswana, including BSc in Audiology, Speech and Language Therapy, and Occupational Therapy.",
+    ],
   },
   {
     id: 12,
@@ -246,6 +301,11 @@ const universities = [
       "Electrical & Electronic Engineering",
       "Telecommunications Engineering",
       "Tourism & Hospitality",
+    ],
+    funFacts: [
+      "Runs a national STEM Kits program selling DIY electronics/robotics kits to learners aged 8 and up, rolling out Tinkering Labs in schools across Botswana.",
+      "Hosts an annual National STEM Hackathon (now in its 6th year) in partnership with the Mathematical Association of Botswana.",
+      "Developed a SMART Water Tank and SMART Greenhouse using sensor automation — showcased at the national Month of Science launch as locally built innovation.",
     ],
   },
 ];

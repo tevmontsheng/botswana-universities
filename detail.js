@@ -73,7 +73,7 @@ if (!uni) {
         </div>
         <div>
           <p class="info-label">Website</p>
-          <p class="info-value"><a href="${uni.website}" target="_blank" rel="noopener">${uni.domain}</a></p>
+          <p class="info-value"><a href="${uni.website}" target="_blank" rel="noopener">Visit Website</a></p>
         </div>
       </div>
     </div>
@@ -88,6 +88,21 @@ if (!uni) {
       <div class="programs-grid">
         ${uni.programs.map((p) => `<span class="program-tag">${p}</span>`).join("")}
       </div>
+    </div>
+
+    <div class="detail-section">
+      <h2>Fun Facts</h2>
+      <ul class="fun-facts-list">
+        ${uni.funFacts
+          .map(
+            (fact) => `
+        <li>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <span>${fact}</span>
+        </li>`
+          )
+          .join("")}
+      </ul>
     </div>
 
     <a href="${uni.website}" target="_blank" rel="noopener" class="visit-btn" style="background-color: ${uni.color}">
